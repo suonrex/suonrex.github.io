@@ -36,7 +36,7 @@
     <a-scene embedded arjs="debugUIEnabled:false;trackingMethod:best;" vr-mode-ui="enabled: false">
         <!-- オブジェクトファイルとマテリアルファイルを読み込む -->
         <a-assets>
-            <audio id="decision" src="/audio/decision5.mp3"></audio>
+            <audio id="decision" src="./audio/decision5.mp3"></audio>
         </a-assets>
         <!-- ARマーカー上になにを展開するかを書く -->
         <a-marker type="pattern" url="./marker/pattern-top.patt">
@@ -68,13 +68,14 @@
             <!-- コンテンツの写真-->
             <a-image width="0.85" height="0.6" class="exhibitorImg" rotation="-90 0 0"  position="0.5 0.1 0.07" src="./images/VRPA_1.jpg" alt="contents"></a-image>
         </a-marker>
-        
+
+        <!-- カメラ起動 -->
+        <a-entity camera></a-entity>
+
         <!-- クリック用 a-entity -->
         <a-entity cursor="rayOrigin: mouse"></a-entity>
         <a-box position="0 0 -10" width="2" height="1" depth="1.5" color="#333" collide></a-box>
 
-        <!-- カメラ起動 -->
-        <a-entity camera></a-entity>
         <div class="Frame_box pcWindow">
             <div class="Frame color" ontouchstart="">
                 <td>
