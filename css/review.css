@@ -1,0 +1,419 @@
+﻿@charset "utf-8";
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p{
+  margin: 0;
+}
+
+body{
+  line-height: 3rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 0%;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(228, 0, 17);
+  z-index: 999;
+}
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul{
+  list-style:none;
+  padding-left:0px;
+}
+
+footer{
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(228, 0, 17);
+}
+
+.headerLogo_box{
+  height: 70px;
+}
+
+.headerLogo{
+  width: 55%;
+  height: 70px;
+}
+
+.headerIphone{
+  float: right;
+  width: 30%;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.footerLogo_box{
+  height: 80px;
+}
+
+.footerLogo{
+  width: 60%;
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+
+.copyright{
+  text-align: center;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.copyrightText{
+  line-height: 20px;
+}
+
+.VRacademyLink{
+  line-height: 21px;
+  height: 20px;
+  font-size: .8rem;
+  width: 40%;
+  margin: 0 auto ;
+  border: 1.5px solid #fff;
+  border-radius: 1rem;
+  text-align: center;
+  color: #fff;
+  margin: 15px auto;
+}
+
+.TopicsFont{
+  font-size: 1.2rem;
+  color: #ff0013;
+  text-align: center;
+}
+
+.root-container{
+  padding-top: 80px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.borderTopics{
+  max-width: 500px;
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  margin: auto;
+  z-index: 998;
+}
+
+.lines-on-sides{
+  white-space: nowrap;
+  margin: auto;
+  width: 70%;
+  margin-top: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.lines-on-sides:before, .lines-on-sides:after {
+	border-top: 1px solid #ff0013;
+  content: "";
+  flex-grow: 1;
+}
+
+.lines-on-sides:before {
+	margin-right: .6em;
+}
+
+.lines-on-sides:after {
+	margin-left: .6em;
+}
+
+.contents{
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.roundFrame{
+  font-size: 1rem;
+  width: 60%;
+  padding: .1rem 0;
+  margin: 0 auto ;
+  border: 1.5px solid #ff0013;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #fff;
+  color: #ff0013;
+}
+
+.roundFrameCnt{
+  font-size: 1rem;
+  width: 60%;
+  padding: .1rem 0;
+  margin: 0 auto ;
+  border: 1.5px solid #000;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.contentsImg{
+  width: 30%;
+  margin-left: 8px;
+  height: 120px;
+  float: left;
+}
+
+.reviewContentsImg{
+  width: 30%;
+  margin-left: 35%;
+  height: 120px;
+  float: center;
+  position: center;
+}
+
+.contentsText{
+  font-size: 1rem;
+  width: 80%;
+  padding: .1rem 0;
+  margin: 30px auto  0;
+  border: 1.5px solid ;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.goodCal{
+  height: 140px;
+}
+
+.good_box{
+  float: left;
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.goodImg{
+  height: 80%;
+  width: 80%;
+  position: center;
+}
+
+.xImg{
+  margin-left: 20px;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+  position: center;
+}
+
+.good{
+float: left;
+width: 100px;
+height: 100px;
+margin-top: 0px;
+margin-left: 20px
+}
+
+.x{
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+height: 100px;
+margin-top: 10px;
+}
+
+.good_cnt{
+float: right;
+width: 100px;
+height: 100px;
+margin-top: -100px;
+margin-right: 30px;
+}
+
+.comment_list{
+  overflow-y: auto;
+  font-size: 0.5rem;
+  width: 90%;
+  padding: .1rem 0;
+  margin: 8px 20px  0;
+  border: 0.5px solid ;
+  border-radius: 0.1rem;
+  background-color: #F2F2F2;
+}
+
+.comment_list li{
+  font-size: 0.8rem;
+  width: 90%;
+  padding: .1rem 0;
+  margin: 30px center  0;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 1px solid ;
+  border-radius: 1rem;
+  text-align: justify;
+  background-color: #fff;
+}
+
+.delete_button{
+  margin: 0.1px auto  0;
+  padding: 0.1rem 0;
+  border: 0.1px solid ;
+  border-radius: 0.5rem;
+  width: 20%;
+  height: 100%;
+  color: #F2F2F2;
+}
+
+.delete{
+  border: 0.5px solid ;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size:1rem;
+  background-color: #ff0013;
+}
+
+.input_area{
+  width: 90%;
+  height: 100%
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 0.5px solid ;
+  border-radius: 0.1rem;
+  background-color: #FFFFFF;
+}
+
+.input_area textarea{
+  font-size: 1.5em;
+  width: 90%;
+  height: 90%;
+  position: relative;
+  z-index: 1;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.input_area label{
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  position: relative;
+  z-index: 0;
+  top: 2em;
+  display: block;
+  margin: 0;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+}
+
+.submit_button{
+  font-size: 1rem;
+  width: 20%;
+  padding: 0.1rem 0;
+  margin: 5px auto  0;
+  border: 0.5px solid ;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: #ff0013;
+  color: #fff;
+}
+
+.submit{
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-size:1rem;
+}
+.exhibitor_box{
+margin-top: 20px;
+margin-bottom: 30px;
+display: inline-block;
+}
+
+.exhibitorImg_box{
+  float: left;
+  width: 35%;
+  height: 180px;
+  margin-left: 10px;
+}
+
+.exhibitorImg{
+  height: 100%;
+  width: 100%;
+}
+
+.exhibitorStatus{
+  margin-left: 10px;
+  width: 55%;
+  display: inline-block;
+}
+
+.exhibitorName{
+  border-bottom: 1px solid red;
+  color: #000;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.exhibitorText{
+  font-size: 1rem;
+  text-align: center;
+  padding: .1rem 0;
+  margin: 30px auto  0;
+  border: 1.5px solid #ff0013;
+  text-align: center;
+  background-color: #fff;
+  height: 95px;
+}
+
+.bottomBotann{
+  line-height: 35px;
+  height: 30px;
+  font-size: .8rem;
+  width: 60%;
+  margin: 0 auto ;
+  border: 1.5px solid #ff0013;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #fff;
+  color: #ff0013;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+.pcWindow{
+margin: 0 auto;
+width: 450px;
+}
+
+header{
+  position: static;
+}
+.root-container {
+  padding-top: 0px;
+}
+.bottomBotann:hover{
+  background-color: #ff0013;
+  color: #fff;
+}
+}
