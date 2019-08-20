@@ -17,7 +17,7 @@ AFRAME.registerComponent('collide', {
         effect.setAttribute('position', pointStr);
         effect.setAttribute('raycaster', 'enabled: false');
         effect.setAttribute('particle-system', 'preset: defolt; texture: /images/eventer/like.png; maxParticleCount: 100;maxAge: ' + (particleAge / 1000) + ';velocityValue:0 -1 0; accelerationValue: 0 0.5 0; duration: 1;');
-        effect.setAttribute('sound', 'src: #decision; autoplay: false; loop: true'); //音を出させる
+        effect.setAttribute('sound', 'src: #decision; autoplay: true; loop: true'); //音を出させる
         return effect;
         };
 
